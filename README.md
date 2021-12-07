@@ -1,5 +1,7 @@
 # <p align=center>Tratamento de dados Northwind
 
+ O conteudo aqui descrito faz parte do curso de Analytics Engineering da empresa Indicium Tech.
+ 
 Neste repositório estão os arquivos utilizados para realizar o tratamento dos dados da <a href="https://github.com/pthom/northwind_psql">Northwind</a>
 por meio da ferramenta de tratamento de dados dbt.
 
