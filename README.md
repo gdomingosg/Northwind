@@ -1,7 +1,8 @@
-# <p align=center>Tratamento de dados Northwind
+# Tratamento de dados Northwind
  
-Neste repositório estão os arquivos utilizados para realizar o tratamento dos dados da <a href="https://github.com/pthom/northwind_psql">Northwind</a>
-por meio da ferramenta de tratamento de dados dbt.
+Neste repositório estão os arquivos utilizados para realizar o tratamento dos dados da <a href="https://github.com/pthom/northwind_psql">Northwind</a> e o dashboard construido com os dados tratados.
+
+O esquema do bando de dados da empresa está apresentado abaixo.
 
 ![image](https://user-images.githubusercontent.com/81938273/142502984-acd90ea2-41b2-4279-98b8-a84c2794e6fb.png)
 
@@ -20,6 +21,12 @@ utilizadas para alimentar a tabela de fato pedidos.
 - Os arquivos da pasta stging foram utilizados para realizar as principas tansformação dos dados, entre elas: renomear as colunas e alterar tipos de dados.
 - Nos arquivos dim e fact são utilizados para criar as versões finais das tabelas a partir da transformações realizadas nos arquivos stg.
 
+
+Após o tratamento final dos dados e seleção dos dados que seriam utilizados para confecção do dashboard, as relações entre as tabelas se estabelaceu conforme apresentado abaixo.
+
+![image](https://user-images.githubusercontent.com/81938273/148570510-eec86f80-cd97-4611-ba9b-f046e5b76d9c.png)
+
+
 ### Dashboard
 
 Para este caso foram criados dois dashboards a partir dos dados.
@@ -28,20 +35,26 @@ Para este caso foram criados dois dashboards a partir dos dados.
 
 O primeiro, para suprir as necessidade do CEO, contém informações a respeito do faturamento durante os anos de funcionamento, o total faturado, o ticket médio, produtos mais vendidos pela empresa e total de compra por clientes e por países.
 
-![image](https://user-images.githubusercontent.com/81938273/148555752-955b5226-9214-456b-adaa-4e59ce425a66.png)
+![image](https://user-images.githubusercontent.com/81938273/148557688-fd6d4c5f-3733-4122-9c9f-e7f462a9bf37.png)
  
 A partir desse dashboard é possível obter as seguintes informações:
 
-- 
-
-- sdadsad
+- Se no ano de 1998 a empresa seguir a mesma tendencia do ano de 1997, o faturamento tende a aumentar;
+- Deve ser realizado um estudo sobre aumentar a rede de vendedores, o marketing ou dar mais desconto nos paises com poucas vendas, para verificar se é possível atingir mais clientes ou mais pedidos;
 
 #### Gerente de Vendas
 
 O segundo, para apresentar os dados ao gerente de vendas, contém informações sobre o vendas por país, quantidade de produtos pedidos, valor liquido vendido por categoria e por produto, total vendido por funcionário, total faturado e ticket médio.
 
-![image](https://user-images.githubusercontent.com/81938273/148556137-aae50bd8-7a71-42d9-b3e5-0e04a8354aa3.png)
+![image](https://user-images.githubusercontent.com/81938273/148569013-d5882d90-98cb-41de-b784-58589b3ce061.png)
 
+A partir desse dashboard é possível obter as seguintes informações:
+
+- Estados Unidos é o pais com os clientes que mais compram;
+- Austria é o pais com o maior Ticket médio;
+- Durante todo o periodo da Northwind, Margaret Peacock foi a fucionária que mais vendeu, quando considerado o valor líquido;
+- No último mês registrado, Andrew Fuller foi o funcionário que mais vendeu;
+ 
 
 
 ## Conhecimentos obtidos por meio deste projeto:
