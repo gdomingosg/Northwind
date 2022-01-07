@@ -60,9 +60,12 @@ A partir desse dashboard é possível obter as seguintes informações:
 ## Conhecimentos obtidos por meio deste projeto:
 - Sintaxes básicas da linguagem SQL para agregar e consultar as informações da base de dados;
 - Métodos de armazenamento de dados na nuvem, mais especificamente, o Big Query;
-- Apresentação as ferramentas Stitch data e dbt utilizadas no processo de ELT;
-- Desenvolvimento de dashboards e elaboração de indicadores;
+- Apresentação às ferramentas Stitch data e dbt utilizadas no processo de ELT;
 - A ferramenta dbt open source permite a criação de um DW com tabelas que possuem informações consolidadas que podem ser distribuidas para todos os setores
 de uma empresa, servindo como uma unica fonte de verdade para a criação de dashboards;
-- O processo de ELT, que permite o tratamento de dados dentro do DW, diminui drasticamente o tempo utilizado pelo analista de BI na transformação dos dados
+- O processo de ELT permite o tratamento de dados dentro do DW, diminuindo drasticamente o tempo utilizado pelo analista de BI na transformação dos dados
  para criação dos dashboards.
+- Desenvolvimento de dashboards e elaboração de indicadores;
+- Utilização de funções DAX.
+
+
